@@ -1,0 +1,194 @@
+body{
+    /* background-color: red; */
+}
+/* Navigation */
+
+/* Home section */
+
+
+
+    #home::before{
+        content: "";
+        background-image: url(images/home\ bg.jpg);
+        background-repeat: no-repeat;
+        position: absolute;
+        height: 90%;
+        width: 100%;
+    }
+
+
+@media screen and (max-width:1500px){
+#home{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 100px;
+    height: 580px;
+    justify-content: center;
+    align-items: center
+}
+#home p{
+   
+    font-size: 1.4rem;
+   
+}
+
+#home::before{
+
+    height: 92%;
+    width: 100%;
+    
+}
+
+/* services section */
+.service-container {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 10px; */
+    
+}
+.service-container1 {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* height: 10px; */
+    
+}
+.service-box{
+    width: 85%;
+}
+}
+
+
+/* client section */
+
+/* contact section */
+
+/* footer section*/
+
+
+
+
+@media screen and (max-width:996px){
+
+    #home p{
+    font-size: 1.2rem;
+    }
+    #home{
+        
+        padding: 0px 50px;
+        height: 585px;
+       
+    }
+}
+    
+@media screen and (max-width:750px){
+
+    #home p{
+    font-size: 1.rem;
+    }
+    #home{
+        
+        padding: 0px 100px;
+        height: 565px;
+       
+    }
+}
+@media screen and (max-width:737px){
+
+#home{
+    height: 557px;
+    padding: 0px 37px;
+}
+
+    #home p{
+    font-size: 1.rem;
+    }
+  
+}
+@media screen and (max-width:630px){
+
+    #home{
+        height: 565px;
+        padding: 0px 37px;
+    }
+    
+        #home p{
+        font-size: 1.1rem;
+        }
+        .h-primary1{
+            font-size: 2rem;
+            color:white;
+            font-style: italic;
+        }
+    }
+    @media screen and (max-width:530px){
+        #navbar{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            position: sticky;
+        
+        }
+        #home{
+            height: 550px;
+            padding: 0px 0px;
+        }
+        }
+       @media screen and (max-width:435px){
+            
+    #home{
+        height: 470px;
+        padding: 0px 10px;
+    }
+    #home::before{
+
+        height: 85%;
+        width: 100%;
+        
+    }
+        #home p{
+        font-size: 0.8rem;
+        }
+        .h-primary{
+            font-size: 1.8rem;
+            color:black;
+            font-style: italic;
+        }
+            }
+            @media screen and (max-width:380px){
+            
+                #home{
+                    height: 444px;
+                    padding: 0px 10px;
+                }
+                #home::before{
+            
+                    height: 81%;
+                    width: 100%;
+                    
+                }
+                    #home p{
+                    font-size: 0.8rem;
+                    }
+                    .h-primary1{
+                        font-size: 1.5rem;
+                        color: white;
+                        font-style: italic;
+                    }
+                    #navbar ul li a{
+                        
+                        padding: 5px 10px;
+                        
+                    }
+                        }
+                        @media screen and (max-width:350px){
+                            #navbar ul li a{
+                        
+                                padding: 5px 6px;
+                                
+                            }
+                        }
